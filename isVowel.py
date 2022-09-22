@@ -17,5 +17,35 @@ def verifyChar(x):
             return True
     return False
 
-print(verifyChar(input()))
+def countVowel(phrase):
+    print(phrase[0].lower() == vowelList[0])
+    a = 0
+    e = 0
+    letteri = 0
+    o = 0
+    u = 0
+    vow = []
+    for i in range(len(phrase)):
+        if(phrase[i].lower() == vowelList[0]):
+            a = a+1
+        elif(phrase[i].lower() == vowelList[1]):
+            e = e+1
+        elif(phrase[i].lower() == vowelList[2]):
+            letteri = letteri+1
+        elif(phrase[i].lower() == vowelList[3]):
+            o = o+1
+        elif(phrase[i].lower() == vowelList[4]):
+            u = u+1
+    vow.append(a)
+    vow.append(e)
+    vow.append(letteri)
+    vow.append(o)
+    vow.append(u)
+    return vow
 
+def printNumberOfVowels(word, list):
+    print(word, ' has:', ' a->', list[0],' e->', list[1],' i->', list[2],' o->', list[3],' u->', list[4])
+
+worddd = 'hola me llamo sexo anal murcielago'
+
+printNumberOfVowels(worddd, countVowel(worddd))
