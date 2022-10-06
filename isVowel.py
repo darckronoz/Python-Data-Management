@@ -46,6 +46,6 @@ def countVowel(phrase):
 def printNumberOfVowels(word, list):
     print(word, ' has:', ' a->', list[0],' e->', list[1],' i->', list[2],' o->', list[3],' u->', list[4])
 
-worddd = 'hola me llamo sexo anal murcielago'
+worddd = 'gestion de datos'
 
 printNumberOfVowels(worddd, countVowel(worddd))
