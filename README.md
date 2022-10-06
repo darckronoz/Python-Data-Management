@@ -7,8 +7,8 @@ To Do
  - [x] Taller 1 Operadores
  - [x] Taller 2 Funciones
  - [x] Taller 3 Cadenas
- - [ ] Taller 4 Tuplas
- - [ ] TAller 5 Listas
+ - [x] Taller 4 Tuplas
+ - [x] TAller 5 Listas
  - [ ] Taller 6 Conjuntos
  - [ ] Taller 7 Diccionarios
- - [ ] Taller Final Unidad 1 
+ - [ ] Taller Final Unidad 1
