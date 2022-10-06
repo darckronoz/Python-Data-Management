@@ -12,8 +12,6 @@
 #formato 3: -> function formatListThree
 #Empleado_1:Luis, Edad: 20, Peso: 55.6
 
-from re import S
-
 
 class employees:
     def __init__(self, name, age, weight):
