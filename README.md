@@ -14,7 +14,7 @@ Unidad 1
  - [x] Taller 4 Tuplas
  - [x] TAller 5 Listas
  - [x] Taller 6 Conjuntos
- - [ ] Taller 7 Diccionarios
+ - [x] Taller 7 Diccionarios
  - [ ] Taller Final Unidad 1
 
 Unidad 2
