@@ -1,0 +1,141 @@
+[
+  {
+    "codigo": "20210278001",
+    "nombres": {
+      "primer_nombre": "Juan",
+      "segundo_nombre": "Carlos"
+    },
+    "apellidos": {
+      "primer_apellido": "Perez",
+      "segundo_apellido": "Rubiano"
+    },
+    "documento": 123,
+    "tipo": "CC",
+    "programa": "Ingenieria de Sistemas",
+	"codigo_programa": "78",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Calculo 1",
+        "nota": 3.8,
+        "creditos": 4,
+        "retirada": "Si",
+		"fecha":"01/11/2021"
+      },
+      {
+        "facultad": "Ciencias",
+        "nombre": "Fisica II",
+        "nota": 2.4,
+        "creditos": 3,
+        "retirada": "No",
+		"fecha":"01/11/2021"
+      },
+	  {
+        "facultad": "Ingenieria",
+        "nombre": "Programacion I",
+        "nota": 3.3,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+      }
+    ]
+  },
+  {
+    "codigo": "20210294001",
+    "nombres": {
+      "primer_nombre": "Luis"
+    },
+    "apellidos": {
+      "primer_apellido": "Ramirez",
+      "segundo_apellido": "Moreno"
+    },
+    "documento": 6879,
+    "tipo": "CC",
+    "programa": "Ingenieria Electronica",
+	"codigo_programa": "94",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Calculo 1",
+        "nota": 2.8,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/11/2021"
+      },
+      {
+        "facultad": "Ciencias",
+        "nombre": "Fisica II",
+        "nota": 3.4,
+        "creditos": 3,
+        "retirada": "No",
+		"fecha":"01/11/2021"
+      },
+	  {
+        "facultad": "Ingenieria",
+        "nombre": "Introduccion a la Ingenieria",
+        "nota": 3.3,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+  }
+  ]  
+  },
+    {
+    "codigo": "20220178001",
+    "nombres": {
+      "primer_nombre": "Laura",
+      "segundo_nombre": "Camila"
+    },
+    "apellidos": {
+      "primer_apellido": "Salinas",
+      "segundo_apellido": "Fonseca"
+    },
+    "documento": 879345,
+    "tipo": "TI",
+    "programa": "Ingenieria de Sistemas",
+	"codigo_programa": "78",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Calculo 1",
+        "nota": 3.8,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+      }
+  ]  
+  },
+  {
+    "codigo": "20220178002",
+    "nombres": {
+      "primer_nombre": "Pedro",
+      "segundo_nombre": "Luis"
+    },
+    "apellidos": {
+      "primer_apellido": "Flechas",
+      "segundo_apellido": "Salamanca"
+    },
+    "documento": 9345787,
+    "tipo": "TI",
+    "programa": "Ingenieria de Sistemas",
+	"codigo_programa": "78",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Programacion I",
+        "nota": 2.8,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+      },
+      {
+        "facultad": "Ciencias",
+        "nombre": "Fisica II",
+        "nota": 3.3,
+        "creditos": 3,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+      }
+  ]  
+  }
+]
