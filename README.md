@@ -15,7 +15,7 @@ Unidad 1
  - [x] TAller 5 Listas
  - [x] Taller 6 Conjuntos
  - [x] Taller 7 Diccionarios
- - [ ] Taller Final Unidad 1
+ - [x] Taller Final Unidad 1
 
 Unidad 2
 -----------------------------------
