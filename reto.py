@@ -2,7 +2,7 @@ import json
 with open('Unidad1_Reto.json', 'r') as file:
     data = json.load(file)
 
-
+print()
 #create student and subjects dict
 student = dict.fromkeys(data[0])
 subject = dict.fromkeys(data[0].get('asignaturas')[0])
@@ -47,6 +47,27 @@ print(subjectScore)
 
 #nota promedio por estudiante de las asignaturas cursadas(no retiradas) - ordenar por apellido.
 
+noRetiredSubject = []
+
+#fill set with subjects and list with subjects and scores
+for d in data:
+    aux = ['',[]]
+    aux[0] = d.get('apellidos').get('primer_apellido')
+    for s in d.get('asignaturas'):
+        if s.get('retirada') == 'No':
+            aux[1].append(s.get('nota'))
+    aux[1] = prom(aux[1])
+    noRetiredSubject.append(aux)
+
+#sort by lastname
+noRetiredSubject.sort()
+
+#convert to dictionary key(lastname), value(mean score)
+finalQuery = dict()
+for i in noRetiredSubject:
+    finalQuery[i[0]] = i[1]
 
 
-
+#final query: promedio notas por estudiante de asignaturas cursadas ordenado por apellidos.
+print('promedio de notas por estudiante de asignaturas cursadas ordenado por apellidos.')
+print(finalQuery)
