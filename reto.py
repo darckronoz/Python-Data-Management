@@ -71,3 +71,35 @@ for i in noRetiredSubject:
 #final query: promedio notas por estudiante de asignaturas cursadas ordenado por apellidos.
 print('promedio de notas por estudiante de asignaturas cursadas ordenado por apellidos.')
 print(finalQuery)
+print()
+#Una lista con los estudiantes y el correo institucional correspondiente 
+    #Si tiene dos nombres: [Primera letra del primer nombre][primera letra del segundo nombre].[primer apellido][dos ultimos números del documento]
+    #Juan Carlos Perez Rubiano 123 = jc.perez23@uptc.edu.co
+    #Si tiene un nombres: [Primera letra del primer nombre][primera letra del primer apellido].[segundo apellido][dos ultimos números del documento]
+    #Luis Ramirez Moreno 6879 = lr.moreno79@uptc.edu.co
+
+#Obtain the data neded firstname lastname and id.
+
+dataStudents = []
+for d in data:
+    aux = ['','','',''] #0 = firstname 1 = secondname 2=lastname 3=id
+    aux[0] = d.get('nombres').get('primer_nombre')
+    if len(d.get('nombres')) > 1:
+        aux[1] = d.get('nombres').get('segundo_nombre')
+        aux[2] = d.get('apellidos').get('primer_apellido')
+        aux[3] = str(d.get('documento'))
+    else:
+        aux[1] = d.get('apellidos').get('primer_apellido')
+        aux[2] = d.get('apellidos').get('segundo_apellido')
+        aux[3] = str(d.get('documento'))
+    dataStudents.append(aux)
+
+#built the mail and store it on a list.
+studentsMail = []
+for s in dataStudents:
+    aux = []
+    aux.append(s[0] + ' ' + s[1] + ' ' +  s[2])
+    aux.append(s[0][0].lower()+s[1][0].lower()+'.'+s[2].lower()+str(s[3])[-2:]+'@uptc.edu.co')
+    studentsMail.append(aux)
+
+print(studentsMail)
