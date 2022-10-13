@@ -21,7 +21,9 @@ Unidad 2
 -----------------------------------
  - [ ] Python Debugging test
  - [ ] Review PEP-8 
- - [ ] Taller 1 listcomp - funcional
+ - [x] Taller 1 listcomp - funcional
+ - [x] Taller 2 lambda - exercise
+ - [ ] Taller 2 lambda - investigate
 
 
 
