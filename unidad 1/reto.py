@@ -44,7 +44,7 @@ for s in subjects:
 #print nota promedio por asignatura:
 print('nota promedio por asignatura')
 print(subjectScore)
-
+print()
 #nota promedio por estudiante de las asignaturas cursadas(no retiradas) - ordenar por apellido.
 
 noRetiredSubject = []
@@ -102,4 +102,6 @@ for s in dataStudents:
     aux.append(s[0][0].lower()+s[1][0].lower()+'.'+s[2].lower()+str(s[3])[-2:]+'@uptc.edu.co')
     studentsMail.append(aux)
 
+#lista con los estudiantes y su correo institucional con las indicaciones dadas.
+print('estudiantes con correo institucional.')
 print(studentsMail)
