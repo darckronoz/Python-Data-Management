@@ -36,6 +36,7 @@ def apply_to_list(listx, function):
 
 print(apply_to_list(ints, lambda x: "even" if x%2 == 0 else "odd"))
 
+#EXERCISE
 #to do: aporte revisar taller ultima parte
 
 #Lambda with arguments
