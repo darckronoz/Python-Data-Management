@@ -23,7 +23,13 @@ Unidad 2
  - [ ] Review PEP-8 
  - [x] Taller 1 listcomp - funcional
  - [x] Taller 2 lambda - exercise
- - [ ] Taller 2 lambda - investigate
+ - [x] Taller 2 lambda - investigate
+ - [x] Taller 3 map, filter and zip.
+ - [x] Taller final Unidad 2.
+ 
+ Unidad 3
+ -----------------------------------
+ 
 
 
 
