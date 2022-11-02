@@ -29,6 +29,8 @@ Unidad 2
  
  Unidad 3
  -----------------------------------
+ - [ ] Taller 1 Numpy - Mathplotlib
+ - [ ] Taller 2 Pandas Series DataFrames
  
 
 
