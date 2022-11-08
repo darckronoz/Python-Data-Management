@@ -1,8 +1,10 @@
+from functools import reduce
 #Taller unidad 2
 
 #1. pedidos de libros
 
 from asyncio.windows_events import NULL
+from operator import index
 
 
 pedidos1 = [ ["45", "Nacho Lee, Pedro Cardenas", 5, 32.50],  
@@ -47,3 +49,14 @@ salida = list(map(lambda x: [x[0], x[1]+15] if x[1] < 80 else [x[0], x[1]], pric
 print('lista de listas con codigo de pedido y valor total de pedido')
 print(salida)
 
+#2. pedidos 2 con el uso de reduce.
+
+pedidos2 = [ [1, ("45", 3, 12.5),   ("27",15,20.5), ("74", 10, 38.5)],   
+            [2, ("45", 10, 12.5),  ("74", 11, 38.5)],  
+            [3, ("45", 2, 12.5),  ("27", 1, 20.5)],  
+            [4, ("31", 6, 14.0),   ("30",9,27.0),  ("100", 15, 40.5)],  
+            [5, ("31", 5, 14.0),   ("30",12,27.0), ("27", 4, 20.5)]] 
+
+indexs = [x for y in pedidos2 for x in y if type(x) == type(1)]
+totales = [reduce(lambda i, j: i[2] + j[2] ,x) for x in pedidos2]
+print(totales)

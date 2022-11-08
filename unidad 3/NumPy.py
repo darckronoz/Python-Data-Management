@@ -80,8 +80,8 @@ matriz2
 
 print(np.ravel(matriz2)) #flatened object with all the elements
 print("----------")
-np.ravel(matriz2,order='A')
-
+np.ravel(matriz2,order='F')
+#the order thing: 
 
 print(list(range(1, 25)))
 cubo = np.array(range(1, 25))
