@@ -29,31 +29,31 @@ y = np.array([[1, 0, 5], [6, 8, 1]])
 #you can cast an array like so
 
 z = x.astype(np.float64) #x as float
-print(z)
+#print(z)
 
 c = np.array([1.1, 2.3, 4.4, -3.1, -4.9, -0.6])
-print(c)
+#print(c)
 
 #cast c to int
 
 cint = c.astype(np.int32)
 
-print(cint)
+#print(cint)
 
 #string list to float numpy array
 
 equis = ['1.1', '-2.54', '-2.44', '2.99', '0.99']
 tmp = np.array(equis)
 
-print(tmp)
+#print(tmp)
 
 tmp_float = tmp.astype(np.float64)
 
-print(tmp_float)
+#print(tmp_float)
 
 tmp_int = tmp_float.astype(np.int32)
 
-print(tmp_int)
+#print(tmp_int)
 
 #attributes of a numpy array
 
@@ -78,18 +78,24 @@ matriz2=matriz.reshape(3,4) #reshape obtains the reshaped object
 matriz2
 
 
-print(np.ravel(matriz2)) #flatened object with all the elements
-print("----------")
+#print(np.ravel(matriz2)) #flatened object with all the elements
+#print("----------")
 np.ravel(matriz2,order='F')
-#the order thing: 
+#the order parameter: 
+# C to flat and order in the principal row order, default value.
+# F to flat and order in the principal column order.
+# K to flat and order in the order the elements were storaged.
+# A to flat and order with the natural index.
 
-print(list(range(1, 25)))
+#print(list(range(1, 25)))
 cubo = np.array(range(1, 25))
 print(cubo.size)
 
 
-cubo.shape = (3, 4, 2)
+cubo.shape = (2, 2, 6) #three dim array: 2 number of arrays(matriz), 2 rows, 6 columns.
 print(cubo)
 print(cubo.shape)
 print(cubo.ndim)
+
+
 
