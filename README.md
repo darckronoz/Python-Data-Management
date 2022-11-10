@@ -30,7 +30,8 @@ Unidad 2
  Unidad 3
  -----------------------------------
  - [x] Taller 1: look for order parameter on ravel
- - [ ] Taller 1 Numpy - Mathplotlib
+ - [ ] Taller 1 Numpy
+ - [x] Taller 1 Mathplotlib
  - [ ] Taller 2 Pandas Series DataFrames
  
 
