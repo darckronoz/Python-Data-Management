@@ -13,6 +13,8 @@ print(np.arange(-20, 1, 0.5, dtype=float))#starts at -20 ends at 1 without
 #equidistant: values equaly distant from each other. (google it)
 print(np.linspace(start=0, stop=5, num=5))
 
+temperatures = np.linspace(13.6, 18.2, 20) #temperatures lineal Y axis with numbers between 13.6 and 18.2.
+print(temperatures)
 
 
 #array initialization
