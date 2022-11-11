@@ -1,4 +1,4 @@
-
+0
 # Python-Data-Management
 
 Repo with educational pourpouses - UPTC - Data management with python
@@ -30,7 +30,7 @@ Unidad 2
  Unidad 3
  -----------------------------------
  - [x] Taller 1: look for order parameter on ravel
- - [ ] Taller 1 Numpy (exercise 2 some numpy function guide and examples)
+ - [x] Taller 1 Numpy (exercise 2 some numpy function guide and examples)
  - [x] Taller 1 Mathplotlib
  - [ ] Taller 2 Pandas Series DataFrames
  - [ ] Taller 3
