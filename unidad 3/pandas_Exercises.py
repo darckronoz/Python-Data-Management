@@ -34,12 +34,12 @@ print(datanew[datanew.Team == 'Finance'][['First Name', 'Team']])
 
 datal = pd.read_csv(url)
 newDataFrame = datal[['First Name', 'Gender', 'Salary']]
-print(newDataFrame.loc(100))
+print(newDataFrame.loc[100:100])
 
 #8. sort by salary, ascending and descending
 
-salarySortedAs = newDataFrame.sort_values(by=['Salary'], ascending=True)
-salarySortedDes = newDataFrame.sort_values(by=['Salary'], ascending=False)
+salarySortedAs = newDataFrame.sort_values(by=['Salary'], ascending=True, inplace=False)
+salarySortedDes = newDataFrame.sort_values(by=['Salary'], ascending=False, inplace=False)
 
 print(salarySortedDes)
 
@@ -51,10 +51,10 @@ print(salaryQuery)
 
 #10. change the name of the serie First Name for Nombre
 
-newDataFrame.rename({'First Name': 'Nombre'}, axis=1, inplace=True)
-print(newDataFrame.keys())
+salaryQuery.rename({'First Name': 'Nombre'}, axis=1, inplace=True)
+print(salaryQuery.keys())
 
 #11. Count the rows of item 9
 
-newDataFrame.loc(9)
+print(datal.loc[9].count())
 

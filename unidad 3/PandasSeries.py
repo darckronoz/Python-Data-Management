@@ -18,10 +18,10 @@ dict_selcol = {1:'Ospina', 2: 'Zapata', 9: 'Falcao', 11: 'Cuadrado', 10: 'Rodrig
 ser_selcol = pd.Series(dict_selcol)
 print(ser_selcol)
 
-print(ser_selcol.index)
-print(ser_selcol.values)
+print(len(ser_selcol.index))
+print(len(ser_selcol.values))
 
-print(ser_selcol[9])
+print(len(ser_selcol[9]))
 
 print(ser_selcol[ser_selcol>='O'])
 

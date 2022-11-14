@@ -24,5 +24,5 @@ maruti2 = data[(data.Brand == 'Maruti') & (data.Mileage > 25)][['Brand', 'Mileag
 print(maruti)
 print(maruti2)
 
-print(data.loc[5:5])
+print(data.loc[0].count())
 #print(data.iloc[1:4])
