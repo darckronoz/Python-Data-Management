@@ -33,8 +33,8 @@ Unidad 2
  - [x] Taller 1 Numpy (exercise 2 some numpy function guide and examples)
  - [x] Taller 1 Mathplotlib
  - [x] Taller 2 Pandas Series DataFrames
- - [ ] Taller 3
- - [ ] Taller final B)
+ - [x] Taller 3
+ - [x] Taller final B)
  
 
 
