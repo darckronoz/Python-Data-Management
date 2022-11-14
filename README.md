@@ -32,7 +32,7 @@ Unidad 2
  - [x] Taller 1: look for order parameter on ravel
  - [x] Taller 1 Numpy (exercise 2 some numpy function guide and examples)
  - [x] Taller 1 Mathplotlib
- - [ ] Taller 2 Pandas Series DataFrames
+ - [x] Taller 2 Pandas Series DataFrames
  - [ ] Taller 3
  - [ ] Taller final B)
  
