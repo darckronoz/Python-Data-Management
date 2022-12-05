@@ -2,8 +2,7 @@ from sqlalchemy import create_engine
 import cx_Oracle
 import pandas as pd
 
-
-#important: instant client library solution.
+# important: instant client library solution.
 oracle_instant_client_path = "C:\oracle_instant_client\instant_client_12.2\instantclient_21_3"
 cx_Oracle.init_oracle_client(lib_dir=oracle_instant_client_path)
 engine = create_engine("oracle://hr:123@localhost/orcl")
