@@ -35,6 +35,19 @@ Unidad 2
  - [x] Taller 3
  - [x] Taller final B)
  
+ Unidad 4
+ -----------------------------------
+ - [x] Taller 1: MariaDB querys and Connect
+ - [x] Taller 1: Oracle querys and Connect
+ - [x] taller 1 Extra: connect to remote oracle dbs with python
+ - [x] taller 2: 
+ - [x] taller 3: part 1
+ - [x] taller 3: part 2
+ - [ ] taller 3: part 3
+ - [ ] taller 4:
+ - [ ] send everything.
+
+ 
 
 
 
