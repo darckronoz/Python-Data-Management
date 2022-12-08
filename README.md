@@ -18,8 +18,8 @@ Unidad 1
 
 Unidad 2
 -----------------------------------
- - [ ] Python Debugging test
- - [ ] Review PEP-8 
+ - [x] Python Debugging test
+ - [x] Review PEP-8 
  - [x] Taller 1 listcomp - funcional
  - [x] Taller 2 lambda - exercise
  - [x] Taller 2 lambda - investigate
@@ -43,9 +43,12 @@ Unidad 2
  - [x] taller 2: 
  - [x] taller 3: part 1
  - [x] taller 3: part 2
- - [ ] taller 3: part 3
- - [ ] taller 4:
- - [ ] send everything.
+ - [x] taller 3: part 3
+ - [x] taller 4:
+ - [x] send everything.
+ 
+ Unidad 5
+ -----------------------------------
 
  
 
